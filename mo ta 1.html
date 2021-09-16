@@ -14,9 +14,10 @@
 <body>   
     <div class="container-fluid">
         <div class="row">
-            <div class="col-1 align-self-center">
-               <span class="fa fa-chevron-left fa-2x thin-fa oooooooo kill" aria-hidden="true"></span></a>
-            </div>
+          <a href="cau hoi thuong gap.html"><div class="col-1 align-self-center">
+            <span class="fa fa-chevron-left fa-2x thin-fa oooooooo kill" aria-hidden="true"></span></a>
+         </div></a>
+            
             <div class="col-11">
               MỜI BẠN BÈ
             </div>
@@ -35,8 +36,8 @@
       <div class="row">
         
         <div class="col bell ">Mô tả<div class="laa">_________</div></div>
-        <div class="col wing">Lịch sử</div>
-        <div class="col wing">Quy tắc</div>
+        <div class="col wing"><a href="lich su.html" class="mauxam">Lịch sử</a></div>
+        <div class="col wing"><a href="quy tac.html" class="mauxam">Quy tắc</a></div>
         <div class="container chick mey ohh nana mot">
           <div class="row itt nunu">
             <div class="col-7">Điều kiện phần thưởng</div>
@@ -65,11 +66,11 @@
 
       <div class="container chick mey ohh">
         <div class="row">
-          <div class="col-2"><img src="images\logo.png" class="are"></div>
+          <div class="col-2"><img src="images\logo.png" class="are" data-toggle="modal" data-target="#exampleModalCenter"></div>
           <div class="col-5 eo"><div class="au">Có thể rút tiền mặt</div><div class="say">VND 0</div></div>
           <div class="col-5">
            <div class="block-text">
-             <button type="button" class="btn  btn-lg btn-block block-form ch" data-toggle="modal" data-target="#exampleModalCenter">Rút tiền</button>
+             <button type="button" class="btn  btn-lg btn-block block-form ch" data-toggle="modal" data-target="#withdraw">Rút tiền</button>
          </div>
           </div>
         </div>
@@ -166,7 +167,7 @@
             <div class="roi">_____________________________________________________</div>
             <div class="container">
               <div class="row">
-                <div class="col sap">Hủy bỏ</div>
+                <button type="button" class="btn btn-link col sap" style="color: black;" data-dismiss="modal">Hủy bỏ</button>
                    <div class="cup">_______</div>
                 <div class="col nhan">Đồng ý</div>
               </div>
@@ -178,6 +179,28 @@
           </div>
         </div>
       </div>
+
+      <div class="modal fade" id="withdraw" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content abcd">
+            <div class="modal-body">
+              <div class="lisaloveme">Nhập số tiền bạn muốn rút </div>
+              <input type="text" class="form-control style-input saylalisa" aria-label="Text input with checkbox">
+              <div class="roi">_____________________________________________________</div>
+              <div class="container">
+                <div class="row">
+                  <button type="button" class="btn btn-link col sap" style="color: black;" data-dismiss="modal">Hủy bỏ</button>
+                     <div class="cup">_______</div>
+                  <div class="col nhan">Đồng ý</div>
+                </div>
+              </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
 </body>
 </html>
 
